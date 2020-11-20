@@ -1,0 +1,47 @@
+/*
+Theme Name: twentytwenty-child
+Template: twentytwenty
+
+*/
+
+@import url("../twentytwenty/style.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+.my-container   {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.text-labels {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+}
+
+.item-labels {
+    width: 50%;
+    text-align: center;
+    background: #FFFAFA;
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+}
+
+.tittle-text    {
+    font-size: 28px;
+    display: inline-block;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
